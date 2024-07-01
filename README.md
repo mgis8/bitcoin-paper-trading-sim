@@ -1,5 +1,5 @@
 # bitcoin-paper-trading-sim
-Bitcoin paper trading simulator that simulates long and short positions based on bitcoin price data from coinbase. Implements short/long position signaling from MA50(moving average for 50 time units) crossing MA20.
+Bitcoin paper trading simulator that simulates long and short positions based on bitcoin price data from coinbase. Implements short/long position signaling from MA50 crossing MA20.
 
 # More in depth explanation
 This program (or app, when packaged through PyInstaller) simulates paper trades using price data from Coinbase, accessible via the API at [https://api.coinbase.com/v2/prices/spot?currency=USD](https://api.coinbase.com/v2/prices/spot?currency=USD). The simulation supports both long and short positions, without accounting for simulated exchange or network fees. 
